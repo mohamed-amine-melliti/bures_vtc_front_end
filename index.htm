@@ -2218,20 +2218,25 @@
           <link rel="prefetch" href="/pricing">
         </div>
         <div class="nav_elements">
-          <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 mt-4 space-y-4 md:space-y-0 md:space-x-4 text-xs">
+          <div
+            class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between px-4 mt-4 space-y-4 md:space-y-0 md:space-x-4 text-xs">
             <div class="flex items-center space-x-2">
               <div class="border border-blue-900 rounded-full p-1">
-                <img src="https://w7.pngwing.com/pngs/283/2/png-transparent-chauffeur-computer-icons-taxi-driver-driving-photography-logo-thumbnail.png" alt="Chauffeur Icon" class="w-5 h-5">
+                <img
+                  src="https://w7.pngwing.com/pngs/283/2/png-transparent-chauffeur-computer-icons-taxi-driver-driving-photography-logo-thumbnail.png"
+                  alt="Chauffeur Icon" class="w-5 h-5">
               </div>
               <div>
                 <h3 class="font-bold text-gray-900">Chauffeurs Disponibles</h3>
                 <p class="text-gray-600">24h/7j</p>
               </div>
             </div>
-          
+
             <div class="flex items-center space-x-2">
               <div class="border border-blue-900 rounded-full p-1">
-                <img src="https://png.pngtree.com/png-vector/20220608/ourmid/pngtree-reserved-icon-on-white-background-png-image_4924057.png" alt="Reservation Icon" class="w-5 h-5">
+                <img
+                  src="https://png.pngtree.com/png-vector/20220608/ourmid/pngtree-reserved-icon-on-white-background-png-image_4924057.png"
+                  alt="Reservation Icon" class="w-5 h-5">
               </div>
               <div>
                 <h3 class="font-bold text-gray-900">Réservation Express</h3>
@@ -2239,7 +2244,7 @@
               </div>
             </div>
           </div>
-          
+
         </div>
         <button aria-label="burger" class="mobile_burger">
           <div class="burger_icon_wrap">
@@ -2390,14 +2395,32 @@
       <div class="nav_bg" style="opacity: 0;"></div>
     </nav>
 
-
+    <style>
+      .nav_wrap {
+        position: fixed;
+        /* Keeps the navbar fixed at the top */
+        top: 0;
+        /* Aligns it to the top */
+        left: 0;
+        width: 100%;
+        /* Full width */
+        z-index: 1000;
+        /* Ensures it appears above other elements */
+        background: white;
+        /* Adjust background as needed */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        /* Optional: Adds a subtle shadow */
+        padding: 10px 20px;
+        /* Adjust padding as needed */
+      }
+    </style>
 
     <!-- Mobile Menu (Side Menu) -->
     <div class="fixed inset-0 bg-gray-800 bg-opacity-50 z-50 hidden" id="mobile-menu-overlay">
       <div class="fixed top-0 left-0 w-64 bg-white h-full shadow-md p-6" id="mobile-menu">
         <div class="flex justify-between items-center mb-6">
           <div class="flex items-center space-x-2">
-            <div class="bg-blue-900 p-3 rounded-md transform rotate-6">
+            <div style="background-color: white;" class="bg-white p-3 rounded-md transform rotate-6">
               <img src="Tedy - Custom benefits and modern recognition for your whole team_files/logovtc.png"
                 alt="Car Icon" class="w-10 h-10">
             </div>
